@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html class="dark" lang="it"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Panoramica Social - Grace &amp; Partners</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#D4AF37", // A beige/gold accent color
+                        "background-light": "#FFFFFF",
+                        "background-dark": "#121212",
+                        "surface-dark": "#1E1E1E", // Dark gray for surfaces
+                    },
+                    fontFamily: {
+                        "display": ["Work Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            min-height: max(884px, 100dvh);
+        }
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        html {
+            -ms-overflow-style: none;scrollbar-width: none;}
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-dark font-display">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="flex items-center bg-background-dark p-4 pb-2 justify-between sticky top-0 z-10 border-b border-white/10">
+<div class="flex size-12 shrink-0 items-center justify-start">
+<span class="material-symbols-outlined text-white" style="font-size: 28px;">menu</span>
+</div>
+<h1 class="text-white text-xl font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Panoramica Social</h1>
+<div class="flex w-12 items-center justify-end">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 w-10 bg-transparent text-white">
+<span class="material-symbols-outlined" style="font-size: 24px;">notifications</span>
+</button>
+</div>
+</div>
+<p class="text-gray-400 text-base font-normal leading-normal pb-3 pt-4 px-4 text-center">Cliente: Brand Famoso S.p.A.</p>
+<div class="flex gap-3 px-4 pb-4 overflow-x-auto">
+<div class="flex h-10 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-primary/20 pl-3 pr-4 ring-1 ring-primary">
+<span class="material-symbols-outlined text-white" style="font-size: 20px;">grid_view</span>
+<p class="text-white text-sm font-medium leading-normal">Tutti</p>
+</div>
+<div class="flex h-10 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-surface-dark pl-3 pr-4 ring-1 ring-white/10">
+<img alt="Instagram Logo" class="w-5 h-5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALA0uo9WIQ1DG6oiQcSYoVf_wUOMHU0d0p1coYNBCVS5o5KyPIcrOwYLtC3ROycAEjOVxhepaZeUnDk6l2Lhg42IFEF0DkErAl0295Fl68vcx4ipnNLFyYc7JHGltZDBhl6w3YoFc5L0J02Zfd49w6rx2KglmjUmjy2tmujoI9G8cOZPeo8tfngTDqUUFrvFwP2Yp813NlhMt-hpMZqefz-GF6KGZ1OvhuXJo_yRbtqY9EzfWarkkzTTs5gt-UcioTejhcDjzQwsM3"/>
+<p class="text-gray-300 text-sm font-medium leading-normal">Instagram</p>
+</div>
+<div class="flex h-10 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-surface-dark pl-3 pr-4 ring-1 ring-white/10">
+<img alt="Facebook Logo" class="w-5 h-5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_5UR9KWkguoqFx4MJ9V7gfLVCM3jA76wTG9T9dRYGLyMO2UkGRaezk1SnTqti21xU_vZi518WNDSsWYYM_7fkvXRD7KDGfBeHAj7QQWfIA9eDgV-mNadFziAHvbSI2LTmiCfpz77mq2EKOvtTfTEIj0FUz3P9bcrV_nnuK3iSa1JXVjkXLNO2eZe-LZsHgFdgmKjsS7lYuVZE7e_JdDeanIMJZXkQIdXfrFbnhBiFif4c097WaG77esdvbN_dY42-lyLO6_PyFFpI"/>
+<p class="text-gray-300 text-sm font-medium leading-normal">Facebook</p>
+</div>
+<div class="flex h-10 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-surface-dark pl-3 pr-4 ring-1 ring-white/10">
+<img alt="LinkedIn Logo" class="w-5 h-5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5flOYh6-lsTmquF1vNuhpm84weNM-BbhxWzh6tTKHzGXHLAZkD65VCxbZz6699lomt9g2DJFXfH2tm1ghnH9HzzqoyLLNchm_uC4xyRVbkDV69SBeQGcgTd2wxXpWju5_3xpVPgravWgMccqKvM0gYW7JpEd7Bdcky0ErR5BS-2GrHCOuJNzGlB420Snfr5pOUgW7r3xhjQgnICwes4VtsHU8PM1dvc-wu5rDTQfcktu7H_xplf6IxvyhR2FheXb4fB7LcKaPU9w-"/>
+<p class="text-gray-300 text-sm font-medium leading-normal">LinkedIn</p>
+</div>
+<div class="flex h-10 shrink-0 cursor-pointer items-center justify-center gap-x-2 rounded-full bg-surface-dark pl-3 pr-4 ring-1 ring-white/10">
+<img alt="TikTok Logo" class="w-5 h-5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFjL5vnoC8PJYHe9NBbZBmbso_qcWcFux1UbgJaovkz8Td8mAQa_eh9ImUS-iTj5iRhZMMH1H79SZfBk_iNxHtnnHPa5ZfsLSg65s9ugxvcv3tGXfAKZOQnlMSbF3NhGz3YYJhmbPtcM1z_AVMb6ULkeWu241V9XVsKx-thtxDKu17hpGKbxD_DlIlIOuW_TDHb_3F0Jffgh8Cw1Dx9Ym4bTG4FjmZeqUpi0_TRT_nTziAvI32-8o3b7k7XPsr8Q1ZWkg9oqiCYXPT"/>
+<p class="text-gray-300 text-sm font-medium leading-normal">TikTok</p>
+</div>
+</div>
+<div class="flex flex-wrap items-center justify-center gap-6 p-4">
+<div class="flex w-full max-w-lg flex-col gap-0.5">
+<div class="flex items-center p-1 justify-between">
+<button class="flex size-10 items-center justify-center rounded-full hover:bg-white/10">
+<span class="material-symbols-outlined text-white" style="font-size: 20px;">chevron_left</span>
+</button>
+<p class="text-white text-lg font-bold leading-tight flex-1 text-center">Ottobre 2024</p>
+<button class="flex size-10 items-center justify-center rounded-full hover:bg-white/10">
+<span class="material-symbols-outlined text-white" style="font-size: 20px;">chevron_right</span>
+</button>
+</div>
+<div class="grid grid-cols-7 gap-y-1">
+<p class="text-gray-400 text-[13px] font-bold leading-normal flex h-10 w-full items-center justify-center">L</p>
+<p class="text-gray-400 text-[13px] font-bold leading-normal flex h-10 w-full items-center justify-center">M</p>
+<p class="text-gray-400 text-[13px] font-bold leading-normal flex h-10 w-full items-center justify-center">M</p>
+<p class="text-gray-400 text-[13px] font-bold leading-normal flex h-10 w-full items-center justify-center">G</p>
+<p class="text-gray-400 text-[13px] font-bold leading-normal flex h-10 w-full items-center justify-center">V</p>
+<p class="text-gray-400 text-[13px] font-bold leading-normal flex h-10 w-full items-center justify-center">S</p>
+<p class="text-gray-400 text-[13px] font-bold leading-normal flex h-10 w-full items-center justify-center">D</p>
+<button class="h-10 w-full text-gray-600 col-start-1 text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">30</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">1</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="relative flex size-full items-center justify-center rounded-full">2<div class="absolute bottom-1 h-1.5 w-1.5 rounded-full bg-[#E8B643]"></div></div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">3</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="relative flex size-full items-center justify-center rounded-full">4<div class="absolute bottom-1 h-1.5 w-1.5 rounded-full bg-[#50B887]"></div></div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">5</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">6</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">7</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="relative flex size-full items-center justify-center rounded-full">8<div class="absolute bottom-1 h-1.5 w-1.5 rounded-full bg-[#D9534F]"></div></div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">9</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">10</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="relative flex size-full items-center justify-center rounded-full">11<div class="absolute bottom-1 h-1.5 w-1.5 rounded-full bg-[#E8B643]"></div></div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">12</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">13</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">14</div>
+</button>
+<button class="h-10 w-full text-black text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full bg-primary ring-1 ring-primary/50">15</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">16</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">17</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="relative flex size-full items-center justify-center rounded-full">18<div class="absolute bottom-1 h-1.5 w-1.5 rounded-full bg-[#50B887]"></div></div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">19</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">20</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">21</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">22</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="relative flex size-full items-center justify-center rounded-full">23<div class="absolute bottom-1 h-1.5 w-1.5 rounded-full bg-[#E8B643]"></div></div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">24</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">25</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">26</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">27</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">28</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">29</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">30</div>
+</button>
+<button class="h-10 w-full text-white text-sm font-medium leading-normal">
+<div class="flex size-full items-center justify-center rounded-full">31</div>
+</button>
+</div>
+</div>
+</div>
+<div class="flex flex-col gap-4 p-4 pb-32">
+<div class="flex items-start justify-between gap-4 rounded-xl bg-surface-dark p-4 border border-white/10">
+<div class="flex flex-[2_2_0px] flex-col gap-3">
+<div class="flex flex-col gap-1">
+<p class="text-gray-400 text-sm font-normal leading-normal">15 Ottobre - ore 9:00</p>
+<p class="text-white text-base font-bold leading-tight">Post Instagram</p>
+<p class="text-gray-400 text-sm font-normal leading-normal">♥ 1.2k | 💬 89 | ➤ 45</p>
+</div>
+<div class="flex items-center justify-start h-7 px-3 rounded-full bg-[#50B887]/20 w-fit">
+<p class="text-xs font-medium text-[#a1e0c4]">Pubblicato</p>
+</div>
+</div>
+<div class="w-24 h-24 bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex-1" data-alt="Abstract image of a product launch campaign" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA0uGc_lJmslWFKBt0qteqhYxgxvk1yX3hkBTGD7NXNZy1k-_qHrFXwf-aPJi47hgsizHvB87-xvTBStdbIW51fl3gtoDky9mAB9XxxuMbvuzItJd7lwKTLWbykUkcAqhh_Nb3B_satrzJHhETbwr5UhlhCYNRW8xZE_R6mcG_ikTK79MrT7pphLsPR9S9eTzJwkjWEHsRhQLV0w2J-jf93DmvFvTCqX9O0I1355CK80Q8fm0rzOlFQaLOcyuy1djXz9Gopl2zXQDJc");'></div>
+</div>
+<div class="flex items-start justify-between gap-4 rounded-xl bg-surface-dark p-4 border border-white/10">
+<div class="flex flex-[2_2_0px] flex-col gap-3">
+<div class="flex flex-col gap-1">
+<p class="text-gray-400 text-sm font-normal leading-normal">15 Ottobre - ore 18:30</p>
+<p class="text-white text-base font-bold leading-tight">Storia Facebook</p>
+<p class="text-gray-400 text-sm font-normal leading-normal">👁️ 8.9k | ↳ 120</p>
+</div>
+<div class="flex items-center justify-start h-7 px-3 rounded-full bg-primary/20 w-fit">
+<p class="text-xs font-medium text-[#f3d38c]">Bozza</p>
+</div>
+</div>
+<div class="w-24 h-24 bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex-1" data-alt="Behind the scenes photo of a team working" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCAbywSDdqwRFSeU1tgeMLwbX8pxT-wrFfhHpgKl2v58IrcPWGLDSyOvBmFW7M5bMSlTEesURBJOC391rflO5keJfx4e4yizS-uKFm8FSk-WNh3cy42-QN9QcKDS6QsGE0amCVgOejbBUQeyjcx-OFWnxKa-nFbl4UknyIr5zuSUn61mbQhUBiOOIdR6yXRDjLPEYdOmRyrsgBBb6MtHrKqgCb3zE6inWs4wWXLSmGTIE3Z8VCCua4C4PmJ8x6u-JthySPzbTry-W8c");'></div>
+</div>
+</div>
+<div class="fixed bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-background-dark via-background-dark/90 to-transparent">
+<div class="max-w-lg mx-auto flex items-center justify-center gap-4">
+<button class="flex-1 flex items-center justify-center gap-2 h-14 px-6 rounded-full bg-surface-dark backdrop-blur-sm text-white text-base font-bold ring-1 ring-white/10">
+<span class="material-symbols-outlined">ios_share</span>
+<span>Esporta Report</span>
+</button>
+<button class="flex-1 flex items-center justify-center gap-2 h-14 px-6 rounded-full bg-primary text-black text-base font-bold">
+<span class="material-symbols-outlined">add</span>
+<span>Nuovo Post</span>
+</button>
+</div>
+</div>
+</div>
+
+</body></html>

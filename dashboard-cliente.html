@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html class="dark" lang="it"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Grace &amp; Partners Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#D4AF37", // A beige/gold accent color
+            "background-dark": "#121212",
+            "card-dark": "#1E1E1E",
+          },
+          fontFamily: {
+            "display": ["Work Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "2xl": "1rem", // Added for larger rounding
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24
+    }
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-dark font-display text-gray-100">
+<div class="relative flex min-h-screen w-full flex-col pb-24">
+<div class="flex items-center bg-background-dark p-4 pb-2 justify-between sticky top-0 z-10">
+<div class="flex items-center gap-4">
+<img class="h-12 w-12 rounded-full object-cover" data-alt="User profile avatar image of a man smiling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVna0HVv_h0dAwIsRNz5Z_AJOg9_ThFUqLc034HFP0odPEgnRHE4Eo8nxNCB4LljPOq2R2weTB0a1HlrbqQCdgyLaUkvxejRxVtx-3RjDi8QPggWEoC_4KukepqrYXlUXKpdMpASyu08UDcI64BiaIuOu1XhG4ebNaMkljIVH0p2qO3Yt4AFBlG7lRG5TZVuq8A2zg06_K7-1eqYcg2k5M8HJ-D9FZ7PmqqMFo_-UscmrSmnFdAA1Ztn1Fcnx5KN1otXdjCYdqWdEW"/>
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Ciao Mario</h2>
+</div>
+<div class="flex w-12 items-center justify-end">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 bg-transparent text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0">
+<span class="material-symbols-outlined text-2xl">notifications</span>
+</button>
+</div>
+</div>
+<p class="text-gray-400 text-base font-normal leading-normal pb-3 pt-1 px-4">Benvenuto nella tua area Grace &amp; Partners.</p>
+<div class="flex flex-wrap gap-4 p-4">
+<div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-2xl p-6 bg-card-dark shadow-lg">
+<p class="text-gray-300 text-base font-medium leading-normal">Progetti Attivi</p>
+<p class="text-white tracking-light text-2xl font-bold leading-tight">5</p>
+</div>
+<div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-2xl p-6 bg-card-dark shadow-lg">
+<p class="text-gray-300 text-base font-medium leading-normal">Campagne in Corso</p>
+<p class="text-white tracking-light text-2xl font-bold leading-tight">3</p>
+</div>
+<div class="flex w-full flex-col gap-2 rounded-2xl p-6 bg-card-dark shadow-lg">
+<div class="flex justify-between items-center">
+<p class="text-gray-300 text-base font-medium leading-normal">Task da Approvare</p>
+<div class="flex items-center justify-center h-8 w-8 rounded-full bg-primary text-background-dark font-bold text-sm">2</div>
+</div>
+</div>
+</div>
+<h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Progetti Attivi</h2>
+<div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden pl-4 pr-4">
+<div class="flex items-stretch gap-4">
+<div class="flex h-full w-72 flex-col gap-4 rounded-2xl bg-card-dark shadow-lg overflow-hidden">
+<img class="w-full h-32 object-cover" data-alt="People collaborating around a table in a modern office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOwciY1LIoKFeDVEtDRZ0Obl89XkHlsIY_hFL6iWNunmqfAtWjBb1fQY4pcSMigJBJwHWf6voPNAZ7Wh5eIVTdhNrNaA622-tR6paYE91TCkBThYvgxEToRfdtKF8PGVQMLmwrIWEOsJmDd9s8GSnC33LH3XPi2ggnEY6yj9UMuGnQF-Szt2ZRIpm3JRl5l38zl85dDVaqucUQvBaSovPYER1i1D6w_S906j7b61EdXN3fsTjyEueMxzmtKIzLVJYTErTGtMKxPHRg"/>
+<div class="flex flex-col flex-1 p-4 pt-0 gap-4">
+<div>
+<p class="text-white text-base font-medium leading-normal">Nuovo Sito Web</p>
+<p class="text-gray-400 text-sm font-normal leading-normal">Scadenza: 15 Dicembre</p>
+</div>
+<div class="w-full bg-gray-700 rounded-full h-2">
+<div class="bg-primary h-2 rounded-full" style="width: 75%"></div>
+</div>
+</div>
+</div>
+<div class="flex h-full w-72 flex-col gap-4 rounded-2xl bg-card-dark shadow-lg overflow-hidden">
+<img class="w-full h-32 object-cover" data-alt="Team presenting a business strategy on a whiteboard" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6VdsbhoK_ac3vgyTL4Q24k6Dh3zTxlsAGNclxvwDmm_5Izdb_pxduaaqPiKbgJhHH87KSrY7l3VHM678eHDH2mSPMYPsSC6T7y6GPu144PUqYlM7u240QObJv8Cz659Sj2cJdXrKYo8K8txPZVHpf9za8j91yd-Zhmo5FiQNNxUA0mesBNwS0honrZFVYAEj0hvQO0C2S1FIoqN_99-0Lixnz3vdpU8_s3lNHZGYR8RrZlR_ay_OgYGD1DIs9UJ5yU08Wv8Je7nGm"/>
+<div class="flex flex-col flex-1 p-4 pt-0 gap-4">
+<div>
+<p class="text-white text-base font-medium leading-normal">Campagna Social Q4</p>
+<p class="text-gray-400 text-sm font-normal leading-normal">Scadenza: 22 Dicembre</p>
+</div>
+<div class="w-full bg-gray-700 rounded-full h-2">
+<div class="bg-primary h-2 rounded-full" style="width: 40%"></div>
+</div>
+</div>
+</div>
+<div class="flex h-full w-72 flex-col gap-4 rounded-2xl bg-card-dark shadow-lg overflow-hidden">
+<img class="w-full h-32 object-cover" data-alt="Multiple hands on laptops during a meeting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbgGyjTyy2dWD6lcIMedkuiOq7dhIqA_GOwgSMo8VftDJqS9IAF_KzRW3rzFvExoHNT0LtLRP0YV-k1xe2jfUfsdiOdnq_ZLB5jByjHCRv_KCfnpxibT7sv14aAzWRwvy1sYcstEwPlso4M2GCBZdYA4-etwLlifIn_sDfNvEL1EwN0GcceKxGtLtGOsL42PaqH9NRPhdjKKTUi153m1ksEHWf6Oagllbg4iqIiblXZ5rej-kJxOpK1Zt02W3XeRzhcXs9Se8OvU0r"/>
+<div class="flex flex-col flex-1 p-4 pt-0 gap-4">
+<div>
+<p class="text-white text-base font-medium leading-normal">SEO Audit &amp; Strategy</p>
+<p class="text-gray-400 text-sm font-normal leading-normal">Scadenza: 30 Dicembre</p>
+</div>
+<div class="w-full bg-gray-700 rounded-full h-2">
+<div class="bg-primary h-2 rounded-full" style="width: 90%"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-8">Ultimi Aggiornamenti</h2>
+<div class="flex flex-col gap-3 px-4">
+<div class="flex items-start gap-4 rounded-2xl bg-card-dark p-4 shadow-lg">
+<div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/20 text-primary">
+<span class="material-symbols-outlined">description</span>
+</div>
+<div class="flex-1">
+<p class="font-medium text-white">Nuovo contratto caricato</p>
+<p class="text-sm text-gray-400">Il file "Contratto_SEO_2024.pdf" è pronto per la revisione.</p>
+<p class="text-xs text-gray-500 mt-1">2 ore fa</p>
+</div>
+</div>
+<div class="flex items-start gap-4 rounded-2xl bg-card-dark p-4 shadow-lg">
+<div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/20 text-primary">
+<span class="material-symbols-outlined">chat_bubble</span>
+</div>
+<div class="flex-1">
+<p class="font-medium text-white">Messaggio da Laura</p>
+<p class="text-sm text-gray-400">"Ciao Mario, ho aggiunto i nuovi mockup per il sito. Fammi..."</p>
+<p class="text-xs text-gray-500 mt-1">Ieri alle 16:30</p>
+</div>
+</div>
+<div class="flex items-start gap-4 rounded-2xl bg-card-dark p-4 shadow-lg">
+<div class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/20 text-primary">
+<span class="material-symbols-outlined">task_alt</span>
+</div>
+<div class="flex-1">
+<p class="font-medium text-white">Task Completato</p>
+<p class="text-sm text-gray-400">La fase di "Ricerca Keywords" per il progetto SEO è stata completata.</p>
+<p class="text-xs text-gray-500 mt-1">2 giorni fa</p>
+</div>
+</div>
+</div>
+<div class="fixed bottom-0 left-0 right-0 h-20 bg-card-dark/80 backdrop-blur-sm border-t border-gray-700">
+<div class="flex justify-around items-center h-full max-w-lg mx-auto">
+<button class="flex flex-col items-center justify-center gap-1 text-primary">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="text-xs font-bold">Dashboard</span>
+</button>
+<button class="flex flex-col items-center justify-center gap-1 text-gray-400">
+<span class="material-symbols-outlined">folder_open</span>
+<span class="text-xs font-medium">Progetti</span>
+</button>
+<button class="flex flex-col items-center justify-center gap-1 text-gray-400">
+<span class="material-symbols-outlined">mail</span>
+<span class="text-xs font-medium">Messaggi</span>
+</button>
+<button class="flex flex-col items-center justify-center gap-1 text-gray-400">
+<span class="material-symbols-outlined">person</span>
+<span class="text-xs font-medium">Profilo</span>
+</button>
+</div>
+</div>
+</div>
+
+</body></html>

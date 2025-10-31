@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html class="dark" lang="it"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Progetti Cliente - Grace &amp; Partners</title>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            // New color palette based on user request
+            "background-dark": "#121212", // Black background
+            "surface-dark": "#1e1e1e", // Dark grey card background
+            "on-surface-dark": "#ffffff", // White text
+            "on-surface-variant-dark": "#a0a0a0", // Lighter grey for secondary text
+            "primary": "#d4af37", // Gold/Beige accent
+            "primary-container-dark": "#3c3521", // Container for gold accent
+            "success": "#50c878", // Emerald green for 'Attivo'
+            "success-container-dark": "rgba(80, 200, 120, 0.1)",
+            "info": "#4b8bf4", // Blue for 'In Corso'
+            "info-container-dark": "rgba(75, 139, 244, 0.1)",
+            "neutral": "#808080", // Grey for 'Completato'
+            "neutral-container-dark": "rgba(128, 128, 128, 0.1)",
+          },
+          fontFamily: {
+            "display": ["Work Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.5rem",
+            "lg": "0.75rem",
+            "xl": "1rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-dark font-display text-on-surface-dark">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<header class="sticky top-0 z-10 flex items-center bg-background-dark/80 p-4 pb-2 backdrop-blur-sm">
+<button class="flex size-12 shrink-0 items-center justify-center text-on-surface-dark">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<h1 class="flex-1 text-lg font-bold leading-tight tracking-[-0.015em]">Progetti di Acme Corp.</h1>
+<div class="size-12 shrink-0"></div>
+</header>
+<div class="px-4 py-3">
+<div class="flex h-10 flex-1 items-center justify-center rounded-lg bg-surface-dark p-1">
+<label class="flex h-full grow cursor-pointer items-center justify-center overflow-hidden rounded-md px-2 text-sm font-medium leading-normal text-on-surface-variant-dark has-[:checked]:bg-primary has-[:checked]:text-black has-[:checked]:shadow-md has-[:checked]:shadow-primary/20">
+<span class="truncate">Tutti</span>
+<input checked="" class="invisible w-0" name="project-filter" type="radio" value="Tutti"/>
+</label>
+<label class="flex h-full grow cursor-pointer items-center justify-center overflow-hidden rounded-md px-2 text-sm font-medium leading-normal text-on-surface-variant-dark has-[:checked]:bg-primary has-[:checked]:text-black has-[:checked]:shadow-md has-[:checked]:shadow-primary/20">
+<span class="truncate">Attivi</span>
+<input class="invisible w-0" name="project-filter" type="radio" value="Attivi"/>
+</label>
+<label class="flex h-full grow cursor-pointer items-center justify-center overflow-hidden rounded-md px-2 text-sm font-medium leading-normal text-on-surface-variant-dark has-[:checked]:bg-primary has-[:checked]:text-black has-[:checked]:shadow-md has-[:checked]:shadow-primary/20">
+<span class="truncate">Completati</span>
+<input class="invisible w-0" name="project-filter" type="radio" value="Completati"/>
+</label>
+</div>
+</div>
+<main class="flex flex-col gap-4 p-4 pt-1 pb-24">
+<div class="flex flex-col items-stretch justify-start rounded-xl bg-surface-dark shadow-[0_4px_12px_rgba(0,0,0,0.15)]">
+<div class="flex w-full flex-col items-stretch justify-center gap-2 p-4">
+<div class="flex items-start justify-between gap-2">
+<p class="text-lg font-bold leading-tight tracking-[-0.015em] text-on-surface-dark">Campagna Social Media Q4</p>
+<div class="inline-flex items-center justify-center whitespace-nowrap rounded-full bg-success-container-dark px-2.5 py-1 text-xs font-medium text-success">Attivo</div>
+</div>
+<div class="flex flex-col gap-1 text-on-surface-variant-dark">
+<p class="text-sm leading-normal">Client Manager: Mario Rossi</p>
+<p class="text-sm leading-normal">Data di inizio: 15/09/2023</p>
+</div>
+</div>
+<div class="flex flex-col gap-2 px-4 pb-4">
+<div class="flex justify-between">
+<p class="text-sm font-medium leading-normal text-on-surface-variant-dark">Avanzamento</p>
+<p class="text-sm font-medium leading-normal text-on-surface-dark">75%</p>
+</div>
+<div class="h-2 w-full rounded-full bg-primary-container-dark overflow-hidden">
+<div class="h-full rounded-full bg-primary" style="width: 75%;"></div>
+</div>
+</div>
+</div>
+<div class="flex flex-col items-stretch justify-start rounded-xl bg-surface-dark shadow-[0_4px_12px_rgba(0,0,0,0.15)]">
+<div class="flex w-full flex-col items-stretch justify-center gap-2 p-4">
+<div class="flex items-start justify-between gap-2">
+<p class="text-lg font-bold leading-tight tracking-[-0.015em] text-on-surface-dark">Redesign Sito Web E-commerce</p>
+<div class="inline-flex items-center justify-center whitespace-nowrap rounded-full bg-info-container-dark px-2.5 py-1 text-xs font-medium text-info">In Corso</div>
+</div>
+<div class="flex flex-col gap-1 text-on-surface-variant-dark">
+<p class="text-sm leading-normal">Client Manager: Sofia Bianchi</p>
+<p class="text-sm leading-normal">Data di inizio: 01/06/2023</p>
+</div>
+</div>
+<div class="flex flex-col gap-2 px-4 pb-4">
+<div class="flex justify-between">
+<p class="text-sm font-medium leading-normal text-on-surface-variant-dark">Avanzamento</p>
+<p class="text-sm font-medium leading-normal text-on-surface-dark">40%</p>
+</div>
+<div class="h-2 w-full rounded-full bg-primary-container-dark overflow-hidden">
+<div class="h-full rounded-full bg-primary" style="width: 40%;"></div>
+</div>
+</div>
+</div>
+<div class="flex flex-col items-stretch justify-start rounded-xl bg-surface-dark shadow-[0_4px_12px_rgba(0,0,0,0.15)]">
+<div class="flex w-full flex-col items-stretch justify-center gap-2 p-4">
+<div class="flex items-start justify-between gap-2">
+<p class="text-lg font-bold leading-tight tracking-[-0.015em] text-on-surface-dark">Analisi SEO Competitor</p>
+<div class="inline-flex items-center justify-center whitespace-nowrap rounded-full bg-neutral-container-dark px-2.5 py-1 text-xs font-medium text-neutral">Completato</div>
+</div>
+<div class="flex flex-col gap-1 text-on-surface-variant-dark">
+<p class="text-sm leading-normal">Client Manager: Luca Verdi</p>
+<p class="text-sm leading-normal">Data di inizio: 02/03/2023</p>
+</div>
+</div>
+<div class="flex flex-col gap-2 px-4 pb-4">
+<div class="flex justify-between">
+<p class="text-sm font-medium leading-normal text-on-surface-variant-dark">Avanzamento</p>
+<p class="text-sm font-medium leading-normal text-on-surface-dark">100%</p>
+</div>
+<div class="h-2 w-full rounded-full bg-primary-container-dark overflow-hidden">
+<div class="h-full rounded-full bg-primary" style="width: 100%;"></div>
+</div>
+</div>
+</div>
+</main>
+<div class="fixed bottom-6 right-6">
+<button class="flex h-14 w-14 items-center justify-center rounded-xl bg-primary text-black shadow-lg shadow-primary/25 transition-transform hover:scale-105 active:scale-95">
+<span class="material-symbols-outlined text-3xl">add</span>
+</button>
+</div>
+</div>
+
+</body></html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="dark" lang="it"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dettaglio Progetto</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#D4AF37", // beige/oro
+                        "background-light": "#f8f7f6", // Mantenuto per coerenza, ma il default è dark
+                        "background-dark": "#0a0a0a", // Nero
+                        "text-light-primary": "#1b180d", // Mantenuto per coerenza
+                        "text-dark-primary": "#ffffff", // Bianco
+                        "text-light-secondary": "#9a864c", // Mantenuto per coerenza
+                        "text-dark-secondary": "#a0a0a0", // Grigio scuro/medio per testo secondario
+                        "border-light": "#e7e1cf", // Mantenuto per coerenza
+                        "border-dark": "#333333", // Grigio scuro per bordi
+                        "surface-dark": "#1a1a1a" // Grigio scuro per superfici/card
+                    },
+                    fontFamily: {
+                        "display": ["Work Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 300,
+            'GRAD' 0,
+            'opsz' 24
+        }input[type="checkbox"] {
+            --checkbox-tick-svg: url('data:image/svg+xml,%3csvg viewBox=%270 0 16 16%27 fill=%27%230a0a0a%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath d=%27M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z%27/%3e%3c/svg%3e');
+        }
+    </style>
+<style>
+        body {
+          min-height: max(884px, 100dvh);
+        }
+      </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-dark font-display text-text-dark-primary">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden pb-24">
+<div class="sticky top-0 z-10 flex items-center bg-background-dark/80 p-4 pb-3 backdrop-blur-sm">
+<button class="flex size-10 shrink-0 items-center justify-center rounded-full text-text-dark-primary">
+<span class="material-symbols-outlined text-2xl">arrow_back</span>
+</button>
+<h1 class="flex-1 text-center pr-10 text-lg font-medium leading-tight tracking-[-0.015em]">Dettaglio Progetto</h1>
+</div>
+<div class="px-4 pt-2 pb-4 @container">
+<div class="flex flex-col items-stretch justify-start rounded-xl @xl:flex-row @xl:items-start bg-surface-dark overflow-hidden">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" data-alt="Immagine astratta rappresentativa del progetto" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBGOILJsGt6yL4b6nyopz-H8xQTNc6CSovdzVC2FVMVRoZuzvBPL8y11A1bqhDThc0HuoZ8PTlM_g7etAPCa5ZJndQKRJGHhpGlWUdb005BRhD-iJHb8dqeTT7Fwmu-NLoXw1ONWM9XxbWrHcSjZOgpJGflcNhFoFOpGwjkktQ_L6CYRdv-NZLWGzP4vKz2K01v3JJH-t_rneQ-5N2HIjS5FzuCN7dvcQWl1jaTbZysdrN_1sKb3p3ra1zJBSk5RJfmmIZeDw1snMKU");'></div>
+<div class="flex w-full min-w-72 grow flex-col items-stretch justify-center gap-1.5 p-5 @xl:px-4">
+<p class="text-sm font-normal leading-normal text-text-dark-secondary">Cliente: Tech Innovate S.p.A.</p>
+<p class="text-xl font-semibold leading-tight tracking-[-0.015em] text-text-dark-primary">Nuova Identità Visiva &amp; Sito Web</p>
+<div class="flex items-center gap-3 pt-2">
+<span class="inline-flex items-center rounded-md bg-primary/20 px-2 py-1 text-xs font-medium text-primary ring-1 ring-inset ring-primary/30">In Corso</span>
+</div>
+</div>
+</div>
+</div>
+<div class="flex flex-col px-4">
+<details class="flex flex-col border-t border-t-border-dark py-2 group" open="">
+<summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-3">
+<p class="text-base font-medium leading-normal text-text-dark-primary">Obiettivi e Descrizione</p>
+<span class="material-symbols-outlined text-text-dark-secondary transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<p class="text-sm font-normal leading-relaxed text-text-dark-secondary pb-2">
+                Questa sezione descrive in dettaglio lo scopo principale del progetto, le metriche di successo e le aspettative del cliente. L'obiettivo è allineare il team e fornire un punto di riferimento chiaro per tutte le attività.
+            </p>
+</details>
+<details class="flex flex-col border-t border-t-border-dark py-2 group">
+<summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-3">
+<p class="text-base font-medium leading-normal text-text-dark-primary">Deliverable</p>
+<span class="material-symbols-outlined text-text-dark-secondary transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<div class="pt-2">
+<label class="flex gap-x-3 py-3 flex-row items-center border-b border-b-border-dark">
+<input checked="" class="h-5 w-5 rounded-md border-border-dark border-2 bg-transparent text-primary checked:bg-primary checked:border-primary checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-border-dark focus:outline-none" type="checkbox"/>
+<p class="text-sm font-normal leading-normal text-text-dark-primary">Creazione Logo Aziendale</p>
+</label>
+<label class="flex gap-x-3 py-3 flex-row items-center border-b border-b-border-dark">
+<input checked="" class="h-5 w-5 rounded-md border-border-dark border-2 bg-transparent text-primary checked:bg-primary checked:border-primary checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-border-dark focus:outline-none" type="checkbox"/>
+<p class="text-sm font-normal leading-normal text-text-dark-primary">Sviluppo Sito Web Vetrina</p>
+</label>
+<label class="flex gap-x-3 py-3 flex-row items-center border-b border-b-border-dark">
+<input class="h-5 w-5 rounded-md border-border-dark border-2 bg-transparent text-primary checked:bg-primary checked:border-primary checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-border-dark focus:outline-none" type="checkbox"/>
+<p class="text-sm font-normal leading-normal text-text-dark-primary">Lancio Campagna Social Media</p>
+</label>
+<label class="flex gap-x-3 py-3 flex-row items-center">
+<input class="h-5 w-5 rounded-md border-border-dark border-2 bg-transparent text-primary checked:bg-primary checked:border-primary checked:bg-[image:--checkbox-tick-svg] focus:ring-0 focus:ring-offset-0 focus:border-border-dark focus:outline-none" type="checkbox"/>
+<p class="text-sm font-normal leading-normal text-text-dark-primary">Report Analitico Finale</p>
+</label>
+</div>
+</details>
+<details class="flex flex-col border-t border-t-border-dark py-2 group">
+<summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-3">
+<p class="text-base font-medium leading-normal text-text-dark-primary">Timeline</p>
+<span class="material-symbols-outlined text-text-dark-secondary transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<div class="relative py-4 pl-8">
+<div class="absolute left-4 top-0 bottom-0 w-0.5 bg-border-dark"></div>
+<div class="relative mb-8 flex items-start">
+<div class="absolute -left-[1.35rem] top-1 flex h-6 w-6 items-center justify-center rounded-full bg-primary ring-4 ring-background-dark">
+<span class="material-symbols-outlined text-sm text-background-dark">check</span>
+</div>
+<div class="ml-4">
+<p class="text-sm font-medium text-text-dark-primary">Kick-off Meeting</p>
+<p class="text-xs text-text-dark-secondary">15 Gennaio 2024</p>
+</div>
+</div>
+<div class="relative mb-8 flex items-start">
+<div class="absolute -left-[1.35rem] top-1 flex h-6 w-6 items-center justify-center rounded-full bg-primary ring-4 ring-background-dark">
+<span class="material-symbols-outlined text-sm text-background-dark">check</span>
+</div>
+<div class="ml-4">
+<p class="text-sm font-medium text-text-dark-primary">Consegna Prima Bozza Logo</p>
+<p class="text-xs text-text-dark-secondary">1 Febbraio 2024</p>
+</div>
+</div>
+<div class="relative mb-8 flex items-start">
+<div class="absolute -left-[1.35rem] top-1 flex h-6 w-6 items-center justify-center rounded-full bg-primary ring-4 ring-background-dark">
+<div class="h-2 w-2 rounded-full bg-background-dark"></div>
+</div>
+<div class="ml-4">
+<p class="text-sm font-medium text-text-dark-primary">Presentazione Mockup Sito</p>
+<p class="text-xs text-text-dark-secondary">28 Febbraio 2024</p>
+</div>
+</div>
+<div class="relative flex items-start">
+<div class="absolute -left-[1.35rem] top-1 flex h-6 w-6 items-center justify-center rounded-full bg-border-dark ring-4 ring-background-dark"></div>
+<div class="ml-4">
+<p class="text-sm font-medium text-text-dark-primary">Go-live Sito Web</p>
+<p class="text-xs text-text-dark-secondary">30 Marzo 2024</p>
+</div>
+</div>
+</div>
+</details>
+<details class="flex flex-col border-t border-b border-border-dark py-2 group">
+<summary class="flex cursor-pointer list-none items-center justify-between gap-6 py-3">
+<p class="text-base font-medium leading-normal text-text-dark-primary">Commenti del Team</p>
+<span class="material-symbols-outlined text-text-dark-secondary transition-transform duration-300 group-open:rotate-180">expand_more</span>
+</summary>
+<div class="pt-2">
+<div class="flex w-full flex-row items-start justify-start gap-3 py-3 border-b border-b-border-dark">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0" data-alt="Avatar di Anna Rossi" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCbDC4Q3gBpS5p6t5ZX-W1UryAxPNOCxMv7KDr0QCYijmmrjClN1P3Jk3DD9vwfmuQDUUt7lz8kErFjxDD58XmR08G6e5xTRTRVADCgunV8MAe1MoMkL0DjgEpUbwzhRa0hdjjXUeXcs4MWsxQh9pMivboO578VB26kIC1w0QV9jh2Yf1492ZKmWZxGwNvVxhTYngOYN47QKpGhFY8s4TzmpGXLWfxRhjC06rufsIzZSb0JUC_4cECYHthE_hmZCEqJA-02x8zk9vnA");'></div>
+<div class="flex h-full flex-1 flex-col items-start justify-start">
+<div class="flex w-full flex-row items-center justify-start gap-x-2">
+<p class="text-sm font-medium leading-normal text-text-dark-primary">Anna Rossi</p>
+<p class="text-xs font-normal leading-normal text-text-dark-secondary">2 ore fa</p>
+</div>
+<p class="text-sm font-normal leading-normal text-text-dark-secondary py-1">Il cliente ha approvato la bozza iniziale del logo. Procediamo con le varianti di colore.</p>
+</div>
+</div>
+<div class="flex w-full flex-row items-start justify-start gap-3 py-3">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0" data-alt="Avatar di Marco Verdi" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBzszaNsZobDXDwDJ33NKhw6vR35giEG27hcR1EP9LnDCqQ0UXoAdBXj-elfzHTR5Xfc1lu5gtSoJuroBGb3StrvxZFqTyjIpVcYL303SeViQOOdDZj8Metdc6_RfPcQvEBwOr7sOsE3BTXzRIipqMjm9HNU7tzgMbXC0nQc1LGB1fOK6nHVjH_BIeT8_gULVAIrA7qj8eadxKZha1Z-SghHd66F9o-W_N2OjDkyLHMwPelaG_8nyuikfV6lLawNobRm5NrL9IEupCv");'></div>
+<div class="flex h-full flex-1 flex-col items-start justify-start">
+<div class="flex w-full flex-row items-center justify-start gap-x-2">
+<p class="text-sm font-medium leading-normal text-text-dark-primary">Marco Verdi</p>
+<p class="text-xs font-normal leading-normal text-text-dark-secondary">1 giorno fa</p>
+</div>
+<p class="text-sm font-normal leading-normal text-text-dark-secondary py-1">Ho caricato i file del mockup del sito. Attendiamo feedback dal cliente prima di procedere con lo sviluppo.</p>
+</div>
+</div>
+</div>
+</details>
+</div>
+<button class="fixed bottom-6 right-6 z-20 flex h-14 w-14 items-center justify-center rounded-full bg-primary shadow-lg transition-transform hover:scale-105">
+<span class="material-symbols-outlined text-2xl text-background-dark">call</span>
+</button>
+</div>
+
+</body></html>

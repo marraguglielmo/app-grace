@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html class="dark" lang="it"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Grace &amp; Partners - Campagne</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#eebd2b",
+            "background-light": "#f8f7f6",
+            "background-dark": "#000000",
+            "card-light": "#FFFFFF",
+            "card-dark": "#2a2a2c",
+            "text-primary-light": "#1b180d",
+            "text-primary-dark": "#FFFFFF",
+            "text-secondary-light": "#8A8A8E",
+            "text-secondary-dark": "#A0A0A0",
+            "accent": "#C6B392"
+          },
+          fontFamily: {
+            "display": ["Work Sans", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-display bg-background-dark text-text-primary-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<header class="flex items-center bg-background-dark p-4 pb-2 justify-between sticky top-0 z-10 border-b border-gray-800">
+<div class="flex size-12 shrink-0 items-center justify-start">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 w-10 bg-transparent text-text-primary-dark hover:bg-card-dark">
+<span class="material-symbols-outlined text-2xl">arrow_back</span>
+</button>
+</div>
+<h1 class="text-text-primary-dark text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Campagne</h1>
+<div class="flex w-12 items-center justify-end">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 w-10 bg-transparent text-text-primary-dark hover:bg-card-dark">
+<span class="material-symbols-outlined text-2xl">add</span>
+</button>
+</div>
+</header>
+<main class="flex flex-col gap-4 p-4">
+<section class="flex flex-wrap gap-4">
+<div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-card-dark border border-gray-800">
+<p class="text-text-secondary-dark text-base font-medium leading-normal">Impressioni Totali</p>
+<p class="text-text-primary-dark tracking-light text-2xl font-bold leading-tight">1.2M</p>
+<p class="text-green-500 text-sm font-medium leading-normal">+5.2%</p>
+</div>
+<div class="flex min-w-[158px] flex-1 flex-col gap-2 rounded-xl p-6 bg-card-dark border border-gray-800">
+<p class="text-text-secondary-dark text-base font-medium leading-normal">Clic Complessivi</p>
+<p class="text-text-primary-dark tracking-light text-2xl font-bold leading-tight">87.5K</p>
+<p class="text-green-500 text-sm font-medium leading-normal">+8.1%</p>
+</div>
+</section>
+<section class="flex flex-col gap-3">
+<div class="px-0 py-3">
+<label class="flex flex-col min-w-40 h-12 w-full">
+<div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+<div class="text-text-secondary-dark flex border-none bg-card-dark items-center justify-center pl-4 rounded-l-lg border-r-0">
+<span class="material-symbols-outlined">search</span>
+</div>
+<input class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-r-lg text-text-primary-dark focus:outline-0 focus:ring-0 border-none bg-card-dark h-full placeholder:text-text-secondary-dark px-4 pl-2 text-base font-normal leading-normal" placeholder="Cerca per nome campagna..." value=""/>
+</div>
+</label>
+</div>
+<div class="flex gap-3 overflow-x-auto pb-2 -ml-4 pl-4">
+<button class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-accent text-black px-4">
+<p class="text-sm font-medium leading-normal">Tutte</p>
+</button>
+<button class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-card-dark px-4 text-text-primary-dark">
+<p class="text-sm font-medium leading-normal">Meta</p>
+</button>
+<button class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-card-dark px-4 text-text-primary-dark">
+<p class="text-sm font-medium leading-normal">Google</p>
+</button>
+<button class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-card-dark px-4 text-text-primary-dark">
+<p class="text-sm font-medium leading-normal">TikTok</p>
+</button>
+<button class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-card-dark px-4 text-text-primary-dark">
+<p class="text-sm font-medium leading-normal">In Pausa</p>
+</button>
+</div>
+</section>
+<section class="flex flex-col gap-4">
+<div class="flex flex-col items-stretch justify-start rounded-xl bg-card-dark border border-gray-800 p-4">
+<div class="flex items-start justify-between gap-4 mb-3">
+<div class="flex flex-col">
+<p class="text-text-primary-dark text-lg font-bold leading-tight tracking-[-0.015em]">Lancio Collezione A/I</p>
+<p class="text-text-secondary-dark text-sm font-normal leading-normal">01/10 - 30/11</p>
+</div>
+<div class="flex items-center gap-2 shrink-0">
+<div class="w-2.5 h-2.5 rounded-full bg-green-500"></div>
+<p class="text-text-secondary-dark text-sm font-medium">Attiva</p>
+</div>
+</div>
+<div class="w-full h-16 my-2">
+<svg class="w-full h-full" preserveAspectRatio="none" viewBox="0 0 300 60">
+<path d="M0,45 C30,20 60,55 90,40 C120,25 150,50 180,35 C210,20 240,45 270,30 C285,22.5 300,15 300,15" fill="none" stroke="#C6B392" stroke-width="2"></path>
+</svg>
+</div>
+<div class="flex items-center justify-between gap-4 mt-3 pt-3 border-t border-gray-800">
+<div class="flex flex-col items-start">
+<p class="text-text-secondary-dark text-xs">Impressioni</p>
+<p class="text-text-primary-dark font-semibold">280.4K</p>
+</div>
+<div class="flex flex-col items-start">
+<p class="text-text-secondary-dark text-xs">Clic</p>
+<p class="text-text-primary-dark font-semibold">15.2K</p>
+</div>
+<div class="flex flex-col items-start">
+<p class="text-text-secondary-dark text-xs">Copertura</p>
+<p class="text-text-primary-dark font-semibold">95.1K</p>
+</div>
+<div class="bg-blue-900/50 text-blue-300 text-xs font-bold px-2.5 py-1 rounded-full">Meta</div>
+</div>
+</div>
+<div class="flex flex-col items-stretch justify-start rounded-xl bg-card-dark border border-gray-800 p-4">
+<div class="flex items-start justify-between gap-4 mb-3">
+<div class="flex flex-col">
+<p class="text-text-primary-dark text-lg font-bold leading-tight tracking-[-0.015em]">Promo Black Friday</p>
+<p class="text-text-secondary-dark text-sm font-normal leading-normal">15/11 - 28/11</p>
+</div>
+<div class="flex items-center gap-2 shrink-0">
+<div class="w-2.5 h-2.5 rounded-full bg-orange-400"></div>
+<p class="text-text-secondary-dark text-sm font-medium">In Pausa</p>
+</div>
+</div>
+<div class="w-full h-16 my-2">
+<svg class="w-full h-full" preserveAspectRatio="none" viewBox="0 0 300 60">
+<path d="M0,30 C30,35 60,20 90,25 C120,30 150,50 180,45 C210,40 240,25 270,30 C285,32.5 300,35 300,35" fill="none" stroke="#C6B392" stroke-width="2"></path>
+</svg>
+</div>
+<div class="flex items-center justify-between gap-4 mt-3 pt-3 border-t border-gray-800">
+<div class="flex flex-col items-start">
+<p class="text-text-secondary-dark text-xs">Impressioni</p>
+<p class="text-text-primary-dark font-semibold">512.9K</p>
+</div>
+<div class="flex flex-col items-start">
+<p class="text-text-secondary-dark text-xs">Clic</p>
+<p class="text-text-primary-dark font-semibold">41.8K</p>
+</div>
+<div class="flex flex-col items-start">
+<p class="text-text-secondary-dark text-xs">Copertura</p>
+<p class="text-text-primary-dark font-semibold">210K</p>
+</div>
+<div class="bg-red-900/50 text-red-300 text-xs font-bold px-2.5 py-1 rounded-full">Google</div>
+</div>
+</div>
+<div class="flex flex-col items-stretch justify-start rounded-xl bg-card-dark border border-gray-800 p-4">
+<div class="flex items-start justify-between gap-4 mb-3">
+<div class="flex flex-col">
+<p class="text-text-primary-dark text-lg font-bold leading-tight tracking-[-0.015em]">Summer Sale Influencer</p>
+<p class="text-text-secondary-dark text-sm font-normal leading-normal">01/06 - 31/07</p>
+</div>
+<div class="flex items-center gap-2 shrink-0">
+<div class="w-2.5 h-2.5 rounded-full bg-gray-500"></div>
+<p class="text-text-secondary-dark text-sm font-medium">Conclusa</p>
+</div>
+</div>
+<div class="w-full h-16 my-2">
+<svg class="w-full h-full" preserveAspectRatio="none" viewBox="0 0 300 60">
+<path d="M0,50 C30,40 60,30 90,20 C120,10 150,25 180,40 C210,55 240,45 270,35 C285,30 300,25 300,25" fill="none" stroke="#C6B392" stroke-width="2"></path>
+</svg>
+</div>
+<div class="flex items-center justify-between gap-4 mt-3 pt-3 border-t border-gray-800">
+<div class="flex flex-col items-start">
+<p class="text-text-secondary-dark text-xs">Impressioni</p>
+<p class="text-text-primary-dark font-semibold">1.1M</p>
+</div>
+<div class="flex flex-col items-start">
+<p class="text-text-secondary-dark text-xs">Clic</p>
+<p class="text-text-primary-dark font-semibold">98.3K</p>
+</div>
+<div class="flex flex-col items-start">
+<p class="text-text-secondary-dark text-xs">Copertura</p>
+<p class="text-text-primary-dark font-semibold">450K</p>
+</div>
+<div class="bg-gray-700 text-gray-300 text-xs font-bold px-2.5 py-1 rounded-full">TikTok</div>
+</div>
+</div>
+</section>
+</main>
+</div>
+
+</body></html>
